@@ -263,7 +263,7 @@ img {
 /*================ LOGIN ================ */
 .login {
     position: fixed;
-    top: 0;
+    top: -100%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -327,6 +327,11 @@ img {
     margin-bottom: 1.25rem;
 }
 
+.login__button {
+    width: 100%;
+    cursor: pointer;
+}
+
 .login__close {
     position: absolute;
     top: 2rem;
@@ -334,4 +339,19 @@ img {
     font-size: 2rem;
     color: var(--title-color);
     cursor: pointer;
+}
+
+
+/*================ BUTTON ================ */
+.button {
+    display: inline-block;
+    background-color: var(--firts-color);
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+    padding: 1rem 1.5rem;
+    transition: box-shadow .4s;
+}
+
+.button:hover {
+    box-shadow: 0 4px 32px hsla(230, 72%, 32%, .4);
 }
