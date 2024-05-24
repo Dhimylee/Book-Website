@@ -39,3 +39,12 @@ if(loginClose) {
         loginContent.classList.remove('show-login')
     })
 }
+
+/*================ HOME SWIPER ================ */
+let swiperHome = new Swiper('.home__swiper', {
+    loop: true,
+    spaceBetween: -24,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
+})
