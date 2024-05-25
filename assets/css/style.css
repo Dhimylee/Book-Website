@@ -211,6 +211,11 @@ img {
     color: var(--firts-color);
 }
 
+/* Add shadow header */
+.shadow-header {
+    box-shadow: 0 2px 16px hsla(0, 0%, 0%, .1);
+}
+
 /*================ SEARCH ================ */
 .search {
     position: fixed;
@@ -377,6 +382,11 @@ img {
 
 .home__article { scale: .8; }
 
+/* Swiper class */
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+    scale: 1;
+}
 
 
 /*================ BUTTON ================ */
