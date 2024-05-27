@@ -1,7 +1,6 @@
 /*================ FONTES ================ */
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&family=Montserrat:wght@400;500;600&display=swap");
 
-
 /*================ VARIAVEIS GLOBAIS ================ */
 :root {
     --header-heigth: 3.5rem;
@@ -241,7 +240,7 @@ img {
 
 .search__icon {
     font-size: 1.25rem;
-    color: var(--text-color);
+    color: var(--title-color);
 }
 
 .search__input {
