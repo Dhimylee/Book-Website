@@ -421,5 +421,4 @@ img {
 .services__title {
     font-size: var(--h3-font-size);
     margin-bottom: .5rem;
-    display: block;
 }
