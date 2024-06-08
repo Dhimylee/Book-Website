@@ -451,3 +451,37 @@ img {
     column-gap: .75rem;
     margin-bottom: 1.25rem;
 }
+
+.featured__discount {
+    color: var(--title-color);
+}
+
+.featured__price {
+    font-size: var(--small-font-size);
+    text-decoration: line-through;
+}
+
+.featured__card .button {
+    cursor: pointer;
+}
+
+.featured__actions {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: .75rem;
+    position: absolute;
+    top: 2rem;
+    right: -1.5rem;
+    transition: right .4s;
+}
+
+.featured__actions button {
+    background: none;
+    font-size: 1.25rem;
+    color: var(--firts-color);
+    cursor: pointer;
+}
+
+.featured__card:hover .featured__actions {
+    right: 1.5rem;
+}
