@@ -423,4 +423,31 @@ img {
     margin-bottom: .5rem;
 }
 
-/*================ SERVICES ================ */
+/*================ FEATURED ================ */
+.featured__card {
+    position: relative;
+    text-align: center;
+    background-color: var(--container-color);
+    padding: 2rem;
+    overflow: hidden;
+    border: 2px solid var(--border-color);
+    transition: border .4s, background-color .4s;
+}
+
+.featured__img {
+    width: 150px;
+    margin: 0 auto .75rem;
+}
+
+.featured__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: .5rem;
+}
+
+.featured__prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .75rem;
+    margin-bottom: 1.25rem;
+}
