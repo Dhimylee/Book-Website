@@ -562,4 +562,22 @@ img {
     margin-bottom: .5rem;
 }
 
+.new__prices {
+    display: flex;
+    align-items: center;
+    column-gap: .75rem;
+    margin-bottom: .75rem;
+}
+
+.new__discount {
+    color: var(--title-color);
+}
+
+.new__price {
+    font-size: var(--small-font-size);
+    text-decoration: line-through;
+}
+
+.new__stars { color: var(--firts-color); }
+
 
