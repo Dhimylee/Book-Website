@@ -580,4 +580,8 @@ img {
 
 .new__stars { color: var(--firts-color); }
 
+.new__swiper:nth-child(1) {
+    margin-bottom: 2rem;
+}
+
 
