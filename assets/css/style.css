@@ -126,6 +126,18 @@ body.dark-theme {
     background-color: hsla(230, 12%, 8%, .6);
  }
 
+ .dark-theme::-webkit-scrollbar {
+    background-color: hsl(230, 16%, 15%);
+ }
+
+ .dark-theme::-webkit-scrollbar-thumb {
+    background-color: hsl(230, 16%, 25%);
+ }
+
+ .dark-theme::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(230, 16%, 35%);
+ }
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
