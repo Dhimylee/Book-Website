@@ -816,3 +816,44 @@ body.dark-theme {
         row-gap: 2rem;
     }
 }
+
+/* For medium devices */
+@media screen and (min-width: 450px) {
+    .featured__card {
+        width: 290px;
+    }
+
+    .new__card {
+        width: 390px;
+    }
+
+    .testimonial__card {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .search__form {
+        width: 500px;
+        margin-inline: auto;
+    }
+
+    .login__form {
+        width: 400px;
+        justify-self: center;
+    }
+
+    .search__close,
+    .login__close {
+        width: max-content;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+    }
+
+    .nav__menu {
+        width: 380px;
+        margin-inline: auto;
+    }
+}
