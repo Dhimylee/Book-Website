@@ -991,4 +991,25 @@ body.dark-theme {
     .testimonial__description {
         font-size: var(--normal-font-size);
     }
+
+    .footer {
+        padding-block: 6rem 3rem;
+    }
+    .footer__data {
+        grid-template-columns: repeat(4, max-content);
+    }
+    .footer__logo,
+    .footer__title {
+        font-size: var(--h2-font-size);
+        margin-bottom: 1.5rem;
+    }
+    .footer__links {
+        row-gap: 1rem;
+    }
+    .footer__social {
+        column-gap: 1.5rem;
+    }
+    .footer__social-link {
+        font-size: 1.5rem;
+    }
 }
