@@ -856,4 +856,39 @@ body.dark-theme {
         width: 380px;
         margin-inline: auto;
     }
+
+    .home__container,
+    .discount__container {
+        grid-template-columns: 420px;
+        justify-content: center;
+    }
+
+    .join__form {
+        width: 328px;
+        justify-self: center;
+    }
+
+    .footer__data {
+        grid-template-columns: repeat(3, max-content);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home__container{ grid-template-columns: 580px; }
+
+    .home__data {
+        width: 420px;
+        justify-self: center;
+    }
+
+    .services__container {
+        grid-template-columns: repeat(3, max-content);
+        justify-content: center;
+        column-gap: 5rem;
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
+    }
 }
